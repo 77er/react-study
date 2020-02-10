@@ -1,13 +1,12 @@
-import React,{Component} from 'react';
-import {CartList} from './components'
-class App extends Component{
+import React from 'react';
+import {Blog} from './component'
+class App extends React.Component {
     render(){
         return(
-            <>
-                <CartList/>
-            </>
+            <div>
+                <Blog/>
+            </div>
         )
     }
 }
-
 export default App;

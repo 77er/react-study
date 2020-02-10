@@ -1,5 +1,7 @@
-import {combineReducers}from 'redux'
-import {Cart} from './Cart'
+import {combineReducers} from 'redux'
+
+import blog from './Blog'
+
 export default combineReducers({
-    Cart,
+    blog
 })
